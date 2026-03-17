@@ -26,4 +26,4 @@
 - 公司：盛穎精密股份有限公司 / Sheng Ying Precision Co., Ltd.
 - 電話：07-6075381
 - Email：sy.huachin@gmail.com
-- 地點：高雄市路竹區 / Luzhu District, Kaohsiung, Taiwan
+- 地點：高雄市路竹區中山路88巷19號 / Luzhu District, Kaohsiung, Taiwan
