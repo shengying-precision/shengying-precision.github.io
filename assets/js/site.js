@@ -35,7 +35,7 @@ const translations = {
     facility_kicker: "Facility",
     facility_title: "設備與廠務環境",
     feat_1: "連續式網帶爐生產線",
-    feat_2: "網帶寬度：1050 mm",
+    feat_2: "網帶寬度：1000 mm",
     feat_3: "總生產線數：7 條",
     feat_4: "主要製程：滲碳 / 淬火 / 回火",
     feat_5: "地點：高雄市路竹區",
