@@ -97,6 +97,9 @@ main{flex:1}
   line-height:1.1;
   max-width:12ch;
 }
+.nowrap{
+  white-space: nowrap;
+}
 .hero-subtitle{
   max-width:660px;
   margin-top:18px;
