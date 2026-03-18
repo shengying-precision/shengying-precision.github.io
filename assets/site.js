@@ -17,7 +17,7 @@ function applyLang(lang){
   document.documentElement.lang = lang === "en" ? "en" : "zh-Hant";
   document.querySelectorAll("[data-zh]").forEach(el => {
     const value = el.getAttribute(`data-${lang}`);
-    if (value) el.textContent = value;
+    if (value) el.innerHTML = value;
   });
 }
 
