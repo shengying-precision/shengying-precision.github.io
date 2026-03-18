@@ -182,7 +182,7 @@ main{flex:1}
   display:grid;gap:20px;
 }
 .cards-3{grid-template-columns:repeat(3,1fr)}
-.cards-4{grid-template-columns:repeat(4,1fr)}
+.cards-4{grid-template-columns:repeat(2,1fr)}
 .info-card{
   background:var(--surface);
   border:1px solid #edf1f4;
