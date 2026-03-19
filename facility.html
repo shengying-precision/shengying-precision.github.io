@@ -18,14 +18,14 @@
         
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
       <nav class="site-nav">
-        <a href="index.html" class="">首頁</a>
-        <a href="about.html" class="">關於盛穎</a>
-        <a href="process.html" class="">製程能力</a>
-        <a href="facility.html" class="active">設備／廠房</a>
-        <a href="quality.html" class="">品質檢驗</a>
-        <a href="contact.html" class="">聯絡我們</a>
+        <a href="index.html" class="" data-zh="首頁" data-en="Home">首頁</a>
+        <a href="about.html" class="" data-zh="關於盛穎" data-en="About">關於盛穎</a>
+        <a href="process.html" class="" data-zh="製程能力" data-en="Process">製程能力</a>
+        <a href="facility.html" class="active" data-zh="設備／廠房" data-en="Facility">設備／廠房</a>
+        <a href="quality.html" class="" data-zh="品質檢驗" data-en="Quality">品質檢驗</a>
+        <a href="contact.html" class="" data-zh="聯絡我們" data-en="Contact">聯絡我們</a>
       </nav>
-      <span class="lang-tag">中 / EN</span>
+      <span class="lang-tag" onclick="toggleLang()">中 / EN</span>
 
       </div>
     </header>
@@ -33,23 +33,23 @@
       
 <section class="page-banner">
   <div class="container">
-    <p class="section-kicker">Facility</p>
-    <h1 class="section-title">設備／廠房</h1>
-    <p class="section-lead">以連續式量產為核心，配置完整熱處理產線與廠務空間。</p>
+    <p class="section-kicker" data-zh="設備" data-en="Facility">設備</p>
+    <h1 class="section-title" data-zh="設備／廠房" data-en="Facility &amp; Plant">設備／廠房</h1>
+    <p class="section-lead" data-zh="以連續式量產為核心，配置完整熱處理產線與廠務空間。" data-en="Built around continuous mass production, our site is equipped with complete heat-treatment lines and supporting factory space.">以連續式量產為核心，配置完整熱處理產線與廠務空間。</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container grid-2">
     <div class="text-block">
-      <p class="section-kicker">Production Line</p>
-      <h2 class="section-title">連續式熱處理爐產線</h2>
-      <p>本公司設有7條連續式熱處理爐產線，具備快速大量生產與製程彈性調度能力，可穩定支援扣件產品之連續化量產。</p>
+      <p class="section-kicker" data-zh="生產線" data-en="Production Line">生產線</p>
+      <h2 class="section-title" data-zh="連續式熱處理爐產線" data-en="Continuous Heat-Treatment Furnace Lines">連續式熱處理爐產線</h2>
+      <p data-zh="本公司設有7條連續式熱處理爐產線，具備快速大量生產與製程彈性調度能力，可穩定支援扣件產品之連續化量產。" data-en="We operate 7 continuous heat-treatment furnace lines with rapid mass-production capability and flexible scheduling to reliably support continuous fastener production.">本公司設有7條連續式熱處理爐產線，具備快速大量生產與製程彈性調度能力，可穩定支援扣件產品之連續化量產。</p>
       <ul class="feature-list" style="margin-top:22px;">
-        <li>淬火爐：電熱系統</li>
-        <li>回火爐：天然氣系統</li>
-        <li>保護氣體：甲醇裂解氣</li>
-        <li>淬火方式：油淬處理</li>
+        <li data-zh="淬火爐：電熱系統" data-en="Quenching furnace: electric heating system">淬火爐：電熱系統</li>
+        <li data-zh="回火爐：天然氣系統" data-en="Tempering furnace: natural gas system">回火爐：天然氣系統</li>
+        <li data-zh="保護氣體：甲醇裂解氣" data-en="Protective atmosphere: dissociated methanol gas">保護氣體：甲醇裂解氣</li>
+        <li data-zh="淬火方式：油淬處理" data-en="Quenching method: oil quenching">淬火方式：油淬處理</li>
       </ul>
     </div>
     <div class="image-card">
@@ -60,14 +60,14 @@
 
 <section class="section section-alt">
   <div class="container">
-    <p class="section-kicker">Factory View</p>
-    <h2 class="section-title">廠房環境</h2>
+    <p class="section-kicker" data-zh="廠房環境" data-en="Factory View">廠房環境</p>
+    <h2 class="section-title" data-zh="廠房環境" data-en="Factory Environment">廠房環境</h2>
     <div class="gallery-grid">
       <img src="assets/images/furnace_top_1.jpg" alt="產線高處拍攝圖" class="wide" />
       <img src="assets/images/furnace_top_2.jpg" alt="產線側視圖" />
       <img src="assets/images/exterior.jpg" alt="廠房外觀圖" />
     </div>
-    <p class="note" style="margin-top:18px;">之後可再補上淬火爐、回火爐與更多廠房照片。</p>
+    <p class="note" style="margin-top:18px;" data-zh="之後可再補上淬火爐、回火爐與更多廠房照片。" data-en="Additional photos of the quenching furnace, tempering furnace, and plant area can be added later.">之後可再補上淬火爐、回火爐與更多廠房照片。</p>
   </div>
 </section>
 
@@ -75,7 +75,7 @@
     <footer class="site-footer">
       <div class="container footer-wrap">
         <p>© <span id="year"></span> 盛穎精密股份有限公司 Sheng Ying Precision Co., Ltd.</p>
-        <p>Fastener Heat Treatment Specialist</p>
+        <p data-zh="扣件熱處理專業服務" data-en="Fastener Heat Treatment Specialist">扣件熱處理專業服務</p>
       </div>
     </footer>
   </div>
