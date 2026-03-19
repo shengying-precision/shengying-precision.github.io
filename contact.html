@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>聯絡資訊｜盛穎精密股份有限公司</title>
-  <meta name="description" content="查看盛穎精密的公司地址、電話、傳真與電子郵件，快速建立熱處理合作聯繫。" />
+  <meta name="description" content="查看盛穎精密的公司地址、電話、傳真與電子郵件。" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -17,12 +17,12 @@
         </a>
 
         <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
-        <nav class="site-nav">
-          <a href="process.html" data-zh="產品／能力" data-en="Capabilities">產品／能力</a>
-          <a href="facility.html" data-zh="設備產能" data-en="Facility">設備產能</a>
-          <a href="quality.html" data-zh="品質保證" data-en="Quality">品質保證</a>
-          <a href="about.html" data-zh="關於我們" data-en="About">關於我們</a>
-          <a href="contact.html" class="active" data-zh="聯絡我們" data-en="Contact">聯絡我們</a>
+        <nav class="site-nav" data-nav-order="about,process,facility,quality,contact">
+          <a href="about.html" data-nav-key="about" data-zh="關於我們" data-en="About">關於我們</a>
+          <a href="process.html" data-nav-key="process" data-zh="產品／能力" data-en="Capabilities">產品／能力</a>
+          <a href="facility.html" data-nav-key="facility" data-zh="設備產能" data-en="Facility">設備產能</a>
+          <a href="quality.html" data-nav-key="quality" data-zh="品質保證" data-en="Quality">品質保證</a>
+          <a href="contact.html" data-nav-key="contact" class="active" data-zh="聯絡我們" data-en="Contact">聯絡我們</a>
         </nav>
         <div class="header-actions">
           <a href="contact.html" class="btn btn-primary btn-header" data-zh="聯絡資訊" data-en="Contact Info">聯絡資訊</a>
@@ -37,15 +37,13 @@
     <div>
       <p class="section-kicker" data-zh="Contact" data-en="Contact">Contact</p>
       <h1 class="section-title" data-zh="聯絡資訊" data-en="Contact Information">聯絡資訊</h1>
-      <p class="section-lead" data-zh="靜態資訊展示，方便採購、工程與業務團隊快速查閱。" data-en="Static company information for procurement, engineering, and sales teams.">靜態資訊展示，方便採購、工程與業務團隊快速查閱。</p>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="container contact-grid align-start">
-    <div class="contact-card">
-      <h2 class="section-title" data-zh="公司資訊" data-en="Company Information">公司資訊</h2>
+  <div class="container contact-grid contact-grid-single align-start">
+    <div class="contact-card contact-card-minimal">
       <div class="contact-item">
         <span class="contact-label" data-zh="公司名稱" data-en="Company">公司名稱</span>
         <span class="contact-value" data-zh="盛穎精密股份有限公司<br>Sheng Ying Precision Co., Ltd." data-en="Sheng Ying Precision Co., Ltd.<br>盛穎精密股份有限公司">盛穎精密股份有限公司<br>Sheng Ying Precision Co., Ltd.</span>
@@ -66,35 +64,6 @@
         <span class="contact-label">Email</span>
         <span class="contact-value">sy.huachin@gmail.com</span>
       </div>
-      <div class="contact-item">
-        <span class="contact-label" data-zh="服務重點" data-en="Service Focus">服務重點</span>
-        <span class="contact-value" data-zh="扣件熱處理量產／製程能力確認／工業交付對接" data-en="Fastener heat treatment / capability confirmation / industrial delivery alignment">扣件熱處理量產／製程能力確認／工業交付對接</span>
-      </div>
-    </div>
-
-    <div class="contact-card map-card">
-      <p class="section-kicker" data-zh="位置" data-en="Location">位置</p>
-      <h2 class="section-title" data-zh="公司位置" data-en="Company Location">公司位置</h2>
-      <iframe
-        class="map-embed"
-        title="Sheng Ying Precision location"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        src="https://www.google.com/maps?q=%E9%AB%98%E9%9B%84%E5%B8%82%E8%B7%AF%E7%AB%B9%E5%8D%80%E4%B8%AD%E5%B1%B1%E8%B7%AF88%E5%B7%B719%E8%99%9F&z=16&output=embed">
-      </iframe>
-    </div>
-  </div>
-</section>
-
-<section class="section section-alt">
-  <div class="container grid-2 align-start">
-    <div class="image-card">
-      <img src="assets/images/entrance.jpg" alt="盛穎精密廠區入口" />
-    </div>
-    <div class="text-block">
-      <p class="section-kicker" data-zh="工業對接" data-en="Industrial Contact">工業對接</p>
-      <h2 class="section-title" data-zh="清楚窗口，穩定溝通" data-en="Clear contact point, stable communication">清楚窗口，穩定溝通</h2>
-      <p class="section-lead" data-zh="聯絡資訊維持簡潔、固定、專業。" data-en="Contact information is kept simple, fixed, and professional.">聯絡資訊維持簡潔、固定、專業。</p>
     </div>
   </div>
 </section>
