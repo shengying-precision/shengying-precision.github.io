@@ -47,35 +47,4 @@ document.addEventListener("DOMContentLoaded", () => {
     applyLang(nextLang);
   };
 
-  document.querySelectorAll(".inquiry-form").forEach((form) => {
-    form.addEventListener("submit", (event) => {
-      event.preventDefault();
-      const data = new FormData(form);
-      const mailto = form.getAttribute("data-mailto") || "sy.huachin@gmail.com";
-      const company = data.get("company") || "";
-      const name = data.get("name") || "";
-      const email = data.get("email") || "";
-      const phone = data.get("phone") || "";
-      const inquiryType = data.get("inquiryType") || "RFQ";
-      const volume = data.get("volume") || "";
-      const specification = data.get("specification") || "";
-
-      const subject = `[Website RFQ] ${company} / ${inquiryType}`;
-      const body = [
-        `Company: ${company}`,
-        `Name: ${name}`,
-        `Email: ${email}`,
-        `Phone: ${phone}`,
-        `Inquiry Type: ${inquiryType}`,
-        `Estimated Volume: ${volume}`,
-        "",
-        "Product / Specification Summary:",
-        `${specification}`,
-        "",
-        "Please attach drawings or specification files if available.",
-      ].join("\n");
-
-      window.location.href = `mailto:${mailto}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    });
-  });
 });

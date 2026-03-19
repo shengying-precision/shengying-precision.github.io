@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>聯絡我們／詢價｜盛穎精密股份有限公司</title>
-  <meta name="description" content="聯絡盛穎精密，快速提交扣件熱處理 RFQ、規格需求、交期與量產詢問。" />
+  <title>聯絡資訊｜盛穎精密股份有限公司</title>
+  <meta name="description" content="查看盛穎精密的公司地址、電話、傳真與電子郵件，快速建立熱處理合作聯繫。" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -25,7 +25,7 @@
           <a href="contact.html" class="active" data-zh="聯絡我們" data-en="Contact">聯絡我們</a>
         </nav>
         <div class="header-actions">
-          <a href="#inquiry-form" class="btn btn-primary btn-header" data-zh="立即詢價" data-en="Request a Quote">立即詢價</a>
+          <a href="tel:+88676075381" class="btn btn-primary btn-header" data-zh="來電洽詢" data-en="Call Us">來電洽詢</a>
           <button class="lang-tag" type="button" onclick="toggleLang()">中 / EN</button>
         </div>
       </div>
@@ -35,9 +35,9 @@
 <section class="page-banner page-banner-actions">
   <div class="container banner-flex">
     <div>
-      <p class="section-kicker" data-zh="Contact / RFQ" data-en="Contact / RFQ">Contact / RFQ</p>
-      <h1 class="section-title" data-zh="快速聯絡與詢價" data-en="Quick Contact & RFQ">快速聯絡與詢價</h1>
-      <p class="section-lead" data-zh="歡迎提供規格、數量、目標硬度與交期需求，我們將協助您快速進入評估流程。" data-en="Send your specifications, volume, target hardness, and delivery needs to start a faster evaluation process.">歡迎提供規格、數量、目標硬度與交期需求，我們將協助您快速進入評估流程。</p>
+      <p class="section-kicker" data-zh="Contact" data-en="Contact">Contact</p>
+      <h1 class="section-title" data-zh="直接聯繫盛穎精密" data-en="Contact Sheng Ying Precision directly">直接聯繫盛穎精密</h1>
+      <p class="section-lead" data-zh="如需熱處理量產合作、能力確認或交期討論，可透過電話或 Email 與我們聯絡。" data-en="For production cooperation, capability confirmation, or lead-time discussion, contact us by phone or email.">如需熱處理量產合作、能力確認或交期討論，可透過電話或 Email 與我們聯絡。</p>
     </div>
     <div class="hero-actions">
       <a href="tel:+88676075381" class="btn btn-primary" data-zh="來電洽詢" data-en="Call Us">來電洽詢</a>
@@ -47,7 +47,7 @@
 </section>
 
 <section class="section">
-  <div class="container contact-grid contact-grid-wide align-start">
+  <div class="container contact-grid align-start">
     <div class="contact-card">
       <h2 class="section-title" data-zh="聯絡資訊" data-en="Contact Information">聯絡資訊</h2>
       <div class="contact-item">
@@ -71,55 +71,25 @@
         <span class="contact-value"><a href="mailto:sy.huachin@gmail.com">sy.huachin@gmail.com</a></span>
       </div>
       <div class="contact-item">
-        <span class="contact-label" data-zh="適合詢問內容" data-en="Typical inquiries">適合詢問內容</span>
-        <span class="contact-value" data-zh="新產品打樣評估、量產報價、製程確認、品質與交期需求。" data-en="New project evaluation, production quotations, process confirmation, quality requirements, and lead-time planning.">新產品打樣評估、量產報價、製程確認、品質與交期需求。</span>
+        <span class="contact-label" data-zh="合作重點" data-en="What we support">合作重點</span>
+        <span class="contact-value" data-zh="扣件熱處理量產、製程能力確認、交期與品質需求溝通。" data-en="Fastener heat-treatment production, capability confirmation, and communication on lead time and quality requirements.">扣件熱處理量產、製程能力確認、交期與品質需求溝通。</span>
       </div>
     </div>
 
-    <form class="inquiry-form" id="inquiry-form" data-mailto="sy.huachin@gmail.com">
-      <p class="section-kicker" data-zh="RFQ 表單" data-en="RFQ Form">RFQ 表單</p>
-      <h2 class="section-title" data-zh="提交需求摘要" data-en="Submit your requirement summary">提交需求摘要</h2>
-      <div class="form-grid">
-        <label>
-          <span data-zh="公司名稱" data-en="Company">公司名稱</span>
-          <input type="text" name="company" required />
-        </label>
-        <label>
-          <span data-zh="聯絡人" data-en="Name">聯絡人</span>
-          <input type="text" name="name" required />
-        </label>
-        <label>
-          <span data-zh="Email" data-en="Email">Email</span>
-          <input type="email" name="email" required />
-        </label>
-        <label>
-          <span data-zh="電話" data-en="Phone">電話</span>
-          <input type="text" name="phone" />
-        </label>
-        <label>
-          <span data-zh="需求類型" data-en="Inquiry Type">需求類型</span>
-          <select name="inquiryType">
-            <option value="RFQ">RFQ / Quote</option>
-            <option value="Technical Discussion">Technical Discussion</option>
-            <option value="Mass Production">Mass Production</option>
-            <option value="Urgent Delivery">Urgent Delivery</option>
-          </select>
-        </label>
-        <label>
-          <span data-zh="預估數量" data-en="Estimated Volume">預估數量</span>
-          <input type="text" name="volume" placeholder="例如：單批 20T / 月需求 100T" />
-        </label>
-        <label class="full-width">
-          <span data-zh="產品／規格摘要" data-en="Product / Specification Summary">產品／規格摘要</span>
-          <textarea name="specification" rows="6" required placeholder="請填寫尺寸、材質、熱處理需求、目標硬度、交期或其他需求"></textarea>
-        </label>
+    <div class="contact-card contact-card-tight">
+      <p class="section-kicker" data-zh="合作方式" data-en="How to work with us">合作方式</p>
+      <h2 class="section-title" data-zh="建議先準備的資訊" data-en="Helpful details to prepare first">建議先準備的資訊</h2>
+      <ul class="feature-list feature-list-light">
+        <li data-zh="產品類型、尺寸、材質與用途" data-en="Product type, dimensions, material, and application">產品類型、尺寸、材質與用途</li>
+        <li data-zh="目標硬度、機械性質或圖面要求" data-en="Target hardness, mechanical properties, or drawing requirements">目標硬度、機械性質或圖面要求</li>
+        <li data-zh="預估批量、交期與出貨安排" data-en="Estimated lot size, lead time, and shipping schedule">預估批量、交期與出貨安排</li>
+        <li data-zh="是否需要量產導入或穩定供應規劃" data-en="Whether you need production ramp-up or stable supply planning">是否需要量產導入或穩定供應規劃</li>
+      </ul>
+      <div class="hero-actions">
+        <a href="mailto:sy.huachin@gmail.com" class="btn btn-primary" data-zh="Email 聯絡" data-en="Email Us">Email 聯絡</a>
+        <a href="facility.html" class="btn btn-secondary btn-dark-outline" data-zh="查看廠區設備" data-en="View Facility">查看廠區設備</a>
       </div>
-      <div class="form-actions">
-        <button type="submit" class="btn btn-primary" data-zh="送出詢價" data-en="Send Inquiry">送出詢價</button>
-        <a href="mailto:sy.huachin@gmail.com" class="btn btn-secondary btn-dark-outline" data-zh="直接寄信" data-en="Email Directly">直接寄信</a>
-      </div>
-      <p class="form-note" data-zh="網站會開啟預設 Email 草稿，方便您附加圖面、規格書與其他檔案。" data-en="The website opens your default email draft so you can attach drawings, specifications, and files.">網站會開啟預設 Email 草稿，方便您附加圖面、規格書與其他檔案。</p>
-    </form>
+    </div>
   </div>
 </section>
 
@@ -129,14 +99,9 @@
       <img src="assets/images/entrance.jpg" alt="盛穎精密廠區入口" />
     </div>
     <div class="text-block">
-      <p class="section-kicker" data-zh="合作方式" data-en="How to work with us">合作方式</p>
-      <h2 class="section-title" data-zh="建議您先提供這些資訊，讓評估更快" data-en="Send these details first to speed up evaluation.">建議您先提供這些資訊，讓評估更快</h2>
-      <ul class="feature-list feature-list-light">
-        <li data-zh="產品類型、尺寸、材質與用途" data-en="Product type, dimensions, material, and application">產品類型、尺寸、材質與用途</li>
-        <li data-zh="目標硬度、機械性質或圖面要求" data-en="Target hardness, mechanical properties, or drawing requirements">目標硬度、機械性質或圖面要求</li>
-        <li data-zh="預估批量、交期與出貨安排" data-en="Estimated lot size, lead time, and shipping schedule">預估批量、交期與出貨安排</li>
-        <li data-zh="是否需要量產導入或穩定供應規劃" data-en="Whether you need production ramp-up or stable supply planning">是否需要量產導入或穩定供應規劃</li>
-      </ul>
+      <p class="section-kicker" data-zh="工業合作" data-en="Industrial partnership">工業合作</p>
+      <h2 class="section-title" data-zh="清楚窗口，直接對接" data-en="Clear point of contact, direct communication">清楚窗口，直接對接</h2>
+      <p class="section-lead" data-zh="我們維持簡潔的聯絡方式，讓工程、採購與業務團隊都能快速建立溝通。" data-en="We keep the contact flow simple so engineering, procurement, and sales teams can connect efficiently.">我們維持簡潔的聯絡方式，讓工程、採購與業務團隊都能快速建立溝通。</p>
     </div>
   </div>
 </section>
@@ -148,7 +113,7 @@
         <p data-zh="扣件熱處理專業服務" data-en="Fastener Heat Treatment Specialist">扣件熱處理專業服務</p>
       </div>
     </footer>
-    <a href="#inquiry-form" class="floating-cta" data-zh="立即詢價" data-en="Request a Quote">立即詢價</a>
+    <a href="tel:+88676075381" class="floating-cta" data-zh="來電洽詢" data-en="Call Us">來電洽詢</a>
   </div>
   <script src="assets/site.js"></script>
 </body>
