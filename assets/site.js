@@ -6,6 +6,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (year) year.textContent = new Date().getFullYear();
 
+  const navOrderFallback = ["about", "process", "facility", "quality", "contact"];
+  if (nav) {
+    const order = (nav.dataset.navOrder || navOrderFallback.join(",")).split(",").map((item) => item.trim()).filter(Boolean);
+    const links = Array.from(nav.querySelectorAll("a[data-nav-key]"));
+    const weight = new Map(order.map((key, index) => [key, index]));
+    links
+      .sort((a, b) => (weight.get(a.dataset.navKey) ?? 999) - (weight.get(b.dataset.navKey) ?? 999))
+      .forEach((link) => nav.appendChild(link));
+  }
+
   const closeNav = () => {
     if (!nav || !toggle) return;
     nav.classList.remove("open");
